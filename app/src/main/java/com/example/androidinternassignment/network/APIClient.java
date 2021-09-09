@@ -1,4 +1,4 @@
-package com.example.androidinternassignment.client;
+package com.example.androidinternassignment.network;
 
 import com.example.androidinternassignment.utils.Credentials;
 import com.example.androidinternassignment.utils.DataInterface;

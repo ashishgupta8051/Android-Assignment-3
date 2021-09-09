@@ -3,6 +3,7 @@
     package="com.example.androidinternassignment">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -11,8 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidInternAssignment">
-        <activity android:name=".CountryInformation"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.activity.CountryInformation" />
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

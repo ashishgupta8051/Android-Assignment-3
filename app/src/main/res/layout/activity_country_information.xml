@@ -5,36 +5,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CountryInformation">
+    tools:context=".ui.activity.CountryInformation">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="10dp">
+        android:layout_height="match_parent">
 
         <LinearLayout
+            android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:visibility="visible"
-            android:id="@+id/linearLayout">
+            android:visibility="visible">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:text="Details"
                 android:textAllCaps="true"
                 android:textSize="28sp"
-                android:textStyle="bold"
-                android:layout_gravity="center"
-                />
+                android:textStyle="bold" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
                 android:layout_marginBottom="10dp">
 
                 <TextView
@@ -42,35 +40,34 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
                     android:text="Name"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
+
                 <TextView
+                    android:id="@+id/countryName"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="0"
-                    android:id="@+id/countryName"
-                    android:textAlignment="textEnd"
-                    android:textSize="18sp"
-                    android:textColor="@color/color_one"
-                    android:textStyle="bold"
                     android:fontFamily="sans-serif-light"
-                    android:layout_alignParentRight="true"
-                    android:gravity="end" />
+                    android:text="0"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/color_one"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/color_two"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                />
+                android:background="@color/color_two" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
                 android:layout_marginBottom="10dp">
 
                 <TextView
@@ -78,35 +75,34 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
                     android:text="Capital"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
+
                 <TextView
+                    android:id="@+id/capital"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="0"
-                    android:id="@+id/capital"
-                    android:textAlignment="textEnd"
-                    android:textSize="18sp"
-                    android:textColor="@color/color_one"
-                    android:textStyle="bold"
                     android:fontFamily="sans-serif-light"
-                    android:layout_alignParentRight="true"
-                    android:gravity="end" />
+                    android:text="0"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/color_one"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/color_two"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                />
+                android:background="@color/color_two" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
                 android:layout_marginBottom="10dp">
 
                 <TextView
@@ -114,35 +110,34 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
                     android:text="Region"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
+
                 <TextView
+                    android:id="@+id/region"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="0"
-                    android:id="@+id/region"
-                    android:textAlignment="textEnd"
-                    android:textSize="18sp"
-                    android:textColor="@color/color_one"
-                    android:textStyle="bold"
                     android:fontFamily="sans-serif-light"
-                    android:layout_alignParentRight="true"
-                    android:gravity="end" />
+                    android:text="0"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/color_one"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/color_two"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                />
+                android:background="@color/color_two" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
                 android:layout_marginBottom="10dp">
 
                 <TextView
@@ -150,35 +145,35 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
                     android:text="Subregion"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
+
                 <TextView
+                    android:id="@+id/subregion"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="0"
-                    android:id="@+id/subregion"
-                    android:textAlignment="textEnd"
-                    android:textSize="18sp"
-                    android:textColor="@color/color_one"
-                    android:textStyle="bold"
-                    android:fontFamily="sans-serif-light"
                     android:layout_alignParentRight="true"
-                    android:gravity="end" />
+                    android:fontFamily="sans-serif-light"
+                    android:text="0"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/color_one"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/color_two"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                />
+                android:background="@color/color_two" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
                 android:layout_marginBottom="10dp">
 
                 <TextView
@@ -186,207 +181,174 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
                     android:text="Population"
-                    android:textSize="18sp"/>
+                    android:textSize="18sp" />
+
                 <TextView
+                    android:id="@+id/population"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:text="0"
-                    android:id="@+id/population"
-                    android:textAlignment="textEnd"
-                    android:textSize="18sp"
-                    android:textColor="@color/color_one"
-                    android:textStyle="bold"
-                    android:fontFamily="sans-serif-light"
                     android:layout_alignParentRight="true"
-                    android:gravity="end" />
+                    android:fontFamily="sans-serif-light"
+                    android:text="0"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/color_one"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/color_two"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Borders"
-                    android:textAllCaps="true"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
-                    />
-            </RelativeLayout>
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="0"
-                android:id="@+id/border"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginBottom="10dp"
-                android:textAlignment="textStart"
-                android:textSize="18sp"
-                android:textColor="@color/color_one"
-                android:textStyle="bold"
-                android:maxLines="2"
-                android:fontFamily="sans-serif-light"
-                android:layout_alignParentRight="true"
-                android:gravity="start" />
-
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/color_two"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                />
-
+                android:background="@color/color_two" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Borders"
+                android:textAllCaps="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-light"
+                android:text="0"
+                android:textAlignment="textStart"
+                android:textColor="@color/color_one"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/color_two" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
                 android:text="Language"
                 android:textAllCaps="true"
                 android:textSize="24sp"
-                android:textStyle="bold"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
                 android:text="Language Name"
-                android:textSize="20sp"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginBottom="10dp"
-                />
+                android:textSize="20sp" />
 
             <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="0"
                 android:id="@+id/languageName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:textAlignment="textStart"
-                android:textSize="18sp"
-                android:textColor="@color/color_one"
-                android:textStyle="bold"
-                android:maxLines="2"
                 android:fontFamily="sans-serif-light"
-                android:gravity="start" />
+                android:text="0"
+                android:textAlignment="textStart"
+                android:textColor="@color/color_one"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
                 android:text="Native Name"
-                android:textSize="20sp"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginBottom="10dp"
-                />
+                android:textSize="20sp" />
 
             <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="0"
                 android:id="@+id/nativelanguageName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:textAlignment="textStart"
-                android:textSize="18sp"
-                android:textColor="@color/color_one"
-                android:textStyle="bold"
-                android:maxLines="2"
                 android:fontFamily="sans-serif-light"
-                android:gravity="start" />
+                android:text="0"
+                android:textAlignment="textStart"
+                android:textColor="@color/color_one"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
                 android:text="iso639_1"
-                android:textSize="20sp"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:layout_marginBottom="10dp"
-                />
+                android:textSize="20sp" />
 
             <TextView
-                android:layout_width="fill_parent"
+                android:id="@+id/iso1"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="0"
-                android:id="@+id/iso639_1"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:textAlignment="textStart"
-                android:textSize="18sp"
-                android:textColor="@color/color_one"
-                android:textStyle="bold"
-                android:maxLines="2"
                 android:fontFamily="sans-serif-light"
-                android:gravity="start" />
+                android:text="0"
+                android:textAlignment="textStart"
+                android:textColor="@color/color_one"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="iso639_2"
-                android:textSize="20sp"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="10dp"
-                />
+                android:text="iso639_2"
+                android:textSize="20sp" />
 
             <TextView
-                android:layout_width="fill_parent"
+                android:id="@+id/iso2"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="0"
-                android:id="@+id/iso639_2"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:textAlignment="textStart"
-                android:textSize="18sp"
-                android:textColor="@color/color_one"
-                android:textStyle="bold"
-                android:maxLines="2"
                 android:fontFamily="sans-serif-light"
-                android:gravity="start" />
+                android:text="0"
+                android:textAlignment="textStart"
+                android:textColor="@color/color_one"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="@color/color_two"
                 android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
                 android:layout_marginTop="10dp"
-                />
-
+                android:layout_marginRight="15dp"
+                android:background="@color/color_two" />
 
         </LinearLayout>
-
-
-
-
-
-
 
     </RelativeLayout>
 

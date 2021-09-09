@@ -1,50 +1,42 @@
 
 package com.example.androidinternassignment.model;
 
-import com.google.gson.annotations.SerializedName;
 
-@SuppressWarnings("unused")
 public class Language {
+    private String iso639_1;
+    private String iso639_2;
+    private String name;
+    private String nativeName;
 
-    @SerializedName("iso639_1")
-    private String mIso6391;
-    @SerializedName("iso639_2")
-    private String mIso6392;
-    @SerializedName("name")
-    private String mName;
-    @SerializedName("nativeName")
-    private String mNativeName;
-
-    public String getIso6391() {
-        return mIso6391;
+    public String getIso639_1() {
+        return iso639_1;
     }
 
-    public void setIso6391(String iso6391) {
-        mIso6391 = iso6391;
+    public void setIso639_1(String iso639_1) {
+        this.iso639_1 = iso639_1;
     }
 
-    public String getIso6392() {
-        return mIso6392;
+    public String getIso639_2() {
+        return iso639_2;
     }
 
-    public void setIso6392(String iso6392) {
-        mIso6392 = iso6392;
+    public void setIso639_2(String iso639_2) {
+        this.iso639_2 = iso639_2;
     }
 
     public String getName() {
-        return mName;
+        return name;
     }
 
     public void setName(String name) {
-        mName = name;
+        this.name = name;
     }
 
     public String getNativeName() {
-        return mNativeName;
+        return nativeName;
     }
 
     public void setNativeName(String nativeName) {
-        mNativeName = nativeName;
+        this.nativeName = nativeName;
     }
-
 }

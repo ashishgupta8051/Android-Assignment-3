@@ -1,76 +1,66 @@
-
 package com.example.androidinternassignment.model;
 
+
+import java.io.Serializable;
 import java.util.List;
-import com.google.gson.annotations.SerializedName;
 
 public class CountryDetails {
-
-    @SerializedName("name")
-    private String mName;
-    @SerializedName("capital")
-    private String mCapital;
-    @SerializedName("region")
-    private String mRegion;
-    @SerializedName("subregion")
-    private String mSubregion;
-    @SerializedName("population")
-    private Long mPopulation;
-    @SerializedName("flag")
-    private String mFlag;
-    @SerializedName("borders")
+    private String name;
+    private String capital;
+    private String region;
+    private String subregion;
+    private Long population;
+    private String flag;
     private List<String> borders;
-    @SerializedName("languages")
     private List<Language> languages;
 
-    public String getmName() {
-        return mName;
+    public String getName() {
+        return name;
     }
 
-    public void setmName(String mName) {
-        this.mName = mName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getmCapital() {
-        return mCapital;
+    public String getCapital() {
+        return capital;
     }
 
-    public void setmCapital(String mCapital) {
-        this.mCapital = mCapital;
+    public void setCapital(String capital) {
+        this.capital = capital;
     }
 
-    public String getmRegion() {
-        return mRegion;
+    public String getRegion() {
+        return region;
     }
 
-    public void setmRegion(String mRegion) {
-        this.mRegion = mRegion;
+    public void setRegion(String region) {
+        this.region = region;
     }
 
-    public String getmSubregion() {
-        return mSubregion;
+    public String getSubregion() {
+        return subregion;
     }
 
-    public void setmSubregion(String mSubregion) {
-        this.mSubregion = mSubregion;
+    public void setSubregion(String subregion) {
+        this.subregion = subregion;
     }
 
-    public Long getmPopulation() {
-        return mPopulation;
+    public Long getPopulation() {
+        return population;
     }
 
-    public void setmPopulation(Long mPopulation) {
-        this.mPopulation = mPopulation;
+    public void setPopulation(Long population) {
+        this.population = population;
     }
 
-    public String getmFlag() {
-        return mFlag;
+    public String getFlag() {
+        return flag;
     }
 
-    public void setmFlag(String mFlag) {
-        this.mFlag = mFlag;
+    public void setFlag(String flag) {
+        this.flag = flag;
     }
-
 
     public List<String> getBorders() {
         return borders;
